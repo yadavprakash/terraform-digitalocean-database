@@ -35,10 +35,10 @@ module "redis" {
   cluster_node_count           = 1
   cluster_private_network_uuid = module.vpc.id
   redis_eviction_policy        = "volatile_lru"
-  cluster_maintenance = {
-    hour = "01:00:00"
-    day  = "tuesday"
-  }
+#  cluster_maintenance = {
+#    hour = "01:00:00"
+#    day  = "tuesday"
+#  }
   create_firewall = true
   firewall_rules = [
     {

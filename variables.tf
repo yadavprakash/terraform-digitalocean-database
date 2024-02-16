@@ -4,11 +4,11 @@ variable "name" {
   description = " The name of the database cluster."
 }
 
-variable "cluster_maintenance" {
-  type        = map(string)
-  default     = null
-  description = "The day and the start hour of the maintenance window policy"
-}
+#variable "cluster_maintenance" {
+#  type        = map(string)
+#  default     = null
+#  description = "The day and the start hour of the maintenance window policy"
+#}
 
 variable "cluster_engine" {
   type        = string

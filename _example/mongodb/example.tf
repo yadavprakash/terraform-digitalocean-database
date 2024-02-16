@@ -33,10 +33,10 @@ module "mongodb" {
   cluster_size                 = "db-s-1vcpu-1gb"
   cluster_node_count           = 1
   cluster_private_network_uuid = module.vpc.id
-  cluster_maintenance = {
-    hour = "01:00:00"
-    day  = "friday"
-  }
+#  cluster_maintenance = {
+#    hour = "01:00:00"
+#    day  = "friday"
+#  }
   databases = ["testdb"]
   users = [
     {

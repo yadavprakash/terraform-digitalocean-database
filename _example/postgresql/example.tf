@@ -34,10 +34,10 @@ module "postgresql" {
   cluster_size                 = "db-s-1vcpu-1gb"
   cluster_node_count           = 1
   cluster_private_network_uuid = module.vpc.id
-  cluster_maintenance = {
-    hour = "02:00:00"
-    day  = "saturday"
-  }
+#  cluster_maintenance = {
+#    hour = "02:00:00"
+#    day  = "saturday"
+#  }
   databases = ["testingdb"]
   users = [
     {
