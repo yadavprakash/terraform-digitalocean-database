@@ -306,6 +306,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_cluster_engine"></a> [cluster\_engine](#input\_cluster\_engine) | Database engine used by the cluster (ex. pg for PostreSQL, mysql for MySQL, redis for Redis, or mongodb for MongoDB) | `string` | `""` | no |
+| <a name="input_cluster_maintenance"></a> [cluster\_maintenance](#input\_cluster\_maintenance) | The day and the start hour of the maintenance window policy | `map(string)` | `null` | no |
 | <a name="input_cluster_node_count"></a> [cluster\_node\_count](#input\_cluster\_node\_count) | Number of nodes that will be included in the cluster. | `number` | `1` | no |
 | <a name="input_cluster_private_network_uuid"></a> [cluster\_private\_network\_uuid](#input\_cluster\_private\_network\_uuid) | The ID of the VPC where the database cluster will be located | `string` | `null` | no |
 | <a name="input_cluster_size"></a> [cluster\_size](#input\_cluster\_size) | Database Droplet size associated with the cluster (ex. db-s-1vcpu-1gb) | `string` | `""` | no |

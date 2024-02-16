@@ -7,6 +7,7 @@ module "labels" {
   name        = var.name
   environment = var.environment
   label_order = var.label_order
+  #  tags     = var.tags
 }
 
 ##-----------------------------------------------------------------------------
