@@ -31,10 +31,10 @@ module "mysql" {
   cluster_node_count           = 1
   cluster_private_network_uuid = module.vpc.id
   mysql_sql_mode               = "ANSI,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION,NO_ZERO_DATE,NO_ZERO_IN_DATE,STRICT_ALL_TABLES,ALLOW_INVALID_DATES"
-#  cluster_maintenance = {
-#    hour = "01:00:00"
-#    day  = "wednesday"
-#  }
+  #  cluster_maintenance = {
+  #    hour = "01:00:00"
+  #    day  = "wednesday"
+  #  }
 
   databases = ["testdb", "testdbt"]
   users = [
