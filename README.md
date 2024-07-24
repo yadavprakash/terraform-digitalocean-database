@@ -17,7 +17,7 @@ This Terraform module creates structured database for digitalocean resources wit
 Example:Basic
 ```hcl
 module "mysql" {
-  source                       = "git::https://github.com/opsstation/terraform-digitalocean-database.git?ref=v1.0.0"
+  source                       = "git::https://github.com/yadavprakash/terraform-digitalocean-database.git?ref=v1.0.0"
   name                         = "mysql-cluster"
   environment                  = "test"
   region                       = "nyc3"
@@ -33,7 +33,7 @@ Example:Complete
 
 ```hcl
 module "mysql" {
-source                       = "git::https://github.com/opsstation/terraform-digitalocean-database.git?ref=v1.0.0"
+source                       = "git::https://github.com/yadavprakash/terraform-digitalocean-database.git?ref=v1.0.0"
 name                         = "mysql-cluster"
 environment                  = "test"
 region                       = "nyc3"
@@ -67,7 +67,7 @@ value = "0.0.0.0"
 Example:mongodb
 ```hcl
 module "mongodb" {
-  source                       = "git::https://github.com/opsstation/terraform-digitalocean-database.git?ref=v1.0.0"
+  source                       = "git::https://github.com/yadavprakash/terraform-digitalocean-database.git?ref=v1.0.0"
   name                         = "mongo-cluster"
   environment                  = "test"
   region                       = "nyc3"
@@ -92,7 +92,7 @@ module "mongodb" {
 Example:mysql
 ```hcl
 module "mysql" {
-  source                       = "git::https://github.com/opsstation/terraform-digitalocean-database.git?ref=v1.0.0"
+  source                       = "git::https://github.com/yadavprakash/terraform-digitalocean-database.git?ref=v1.0.0"
   name                         = "mysql-cluster"
   environment                  = "test"
   region                       = "nyc3"
@@ -126,7 +126,7 @@ module "mysql" {
 Example:postgresql
 ```hcl
 module "postgresql" {
-  source                       = "git::https://github.com/opsstation/terraform-digitalocean-database.git?ref=v1.0.0"
+  source                       = "git::https://github.com/yadavprakash/terraform-digitalocean-database.git?ref=v1.0.0"
   name                         = "postgresql"
   environment                  = "test"
   region                       = "nyc3"
@@ -167,7 +167,7 @@ module "postgresql" {
 Example:redis
 ```hcl
 module "redis" {
-  source                       = "git::https://github.com/opsstation/terraform-digitalocean-database.git?ref=v1.0.0"
+  source                       = "git::https://github.com/yadavprakash/terraform-digitalocean-database.git?ref=v1.0.0"
   name                         = "redis"
   environment                  = "test"
   region                       = "nyc3"
@@ -194,7 +194,7 @@ module "redis" {
 Example:replica_db
 ```hcl
 module "mysql" {
-  source                       = "git::https://github.com/opsstation/terraform-digitalocean-database.git?ref=v1.0.0"
+  source                       = "git::https://github.com/yadavprakash/terraform-digitalocean-database.git?ref=v1.0.0"
   name                         = "mysql-cluster"
   environment                  = "test"
   region                       = "nyc3"
@@ -246,26 +246,26 @@ Please ensure you specify the correct 'source' path for the module.
 - This module currently does not provide any outputs.
 
 # Examples:Basic
-For detailed examples on how to use this module, please refer to the '[example](https://github.com/opsstation/terraform-digitalocean-database/tree/master/_example/basic)' directory within this repository.
+For detailed examples on how to use this module, please refer to the '[example](https://github.com/yadavprakash/terraform-digitalocean-database/tree/master/_example/basic)' directory within this repository.
 # Examples:complete
-For detailed examples on how to use this module, please refer to the '[example](https://github.com/opsstation/terraform-digitalocean-database/tree/master/_example/complete)' directory within this repository.
+For detailed examples on how to use this module, please refer to the '[example](https://github.com/yadavprakash/terraform-digitalocean-database/tree/master/_example/complete)' directory within this repository.
 # Examples:mongodb
-For detailed examples on how to use this module, please refer to the '[example](https://github.com/opsstation/terraform-digitalocean-database/tree/master/_example/mongodb)' directory within this repository.
+For detailed examples on how to use this module, please refer to the '[example](https://github.com/yadavprakash/terraform-digitalocean-database/tree/master/_example/mongodb)' directory within this repository.
 # Examples:mysql
-For detailed examples on how to use this module, please refer to the '[example](https://github.com/opsstation/terraform-digitalocean-database/tree/master/_example/mysql)' directory within this repository.
+For detailed examples on how to use this module, please refer to the '[example](https://github.com/yadavprakash/terraform-digitalocean-database/tree/master/_example/mysql)' directory within this repository.
 # Examples:postgresql
-For detailed examples on how to use this module, please refer to the '[example](https://github.com/opsstation/terraform-digitalocean-database/tree/master/_example/postgresql)' directory within this repository.
+For detailed examples on how to use this module, please refer to the '[example](https://github.com/yadavprakash/terraform-digitalocean-database/tree/master/_example/postgresql)' directory within this repository.
 # Examples:redis
-For detailed examples on how to use this module, please refer to the '[example](https://github.com/opsstation/terraform-digitalocean-database/tree/master/_example/redis)' directory within this repository.
+For detailed examples on how to use this module, please refer to the '[example](https://github.com/yadavprakash/terraform-digitalocean-database/tree/master/_example/redis)' directory within this repository.
 # Examples:replica_db
-For detailed examples on how to use this module, please refer to the '[example](https://github.com/opsstation/terraform-digitalocean-database/tree/master/_example/replica_db)' directory within this repository.
+For detailed examples on how to use this module, please refer to the '[example](https://github.com/yadavprakash/terraform-digitalocean-database/tree/master/_example/replica_db)' directory within this repository.
 
 ## Authors
 Your Name
 Replace '[License Name]' and '[Your Name]' with the appropriate license and your information. Feel free to expand this README with additional details or usage instructions as needed for your specific use case.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/opsstation/terraform-digitalocean-database/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/yadavprakash/terraform-digitalocean-database/blob/master/LICENSE) file for details.
 
 
 
@@ -287,7 +287,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_labels"></a> [labels](#module\_labels) | git::https://github.com/opsstation/terraform-digitalocean-labels.git | v1.0.0 |
+| <a name="module_labels"></a> [labels](#module\_labels) | git::https://github.com/yadavprakash/terraform-digitalocean-labels.git | v1.0.0 |
 
 ## Resources
 
